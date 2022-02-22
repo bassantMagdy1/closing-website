@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cart</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kalam:wght@300;700&family=Prompt&family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/home.css">
+        <link rel="stylesheet" href="CSS/search.css">
+    </head>
+    <body id="body">
+
+        <span id="up" ></span>
+        <nav class="navbar"></nav>
+
+        <section class="container content-section">
+            <div class="shop-items">
+                <div class="shop-item">
+                    <img class="shop-item-image" src="img/card1.png">
+                    <div class="all_des">
+                        <div class="shop-item-details">
+                            <div class="all_head">
+                                <h1 class="shop-item-title">T-Shirt</h1>
+                                <p class="shop-item-price">$19.99</p>
+                                <p class="product-sub-heading">select size</p>
+                                <div class="sizeig_box">
+                                    <input type="radio" name="size" id="s-size" value="s" hidden checked>
+                                    <label for="s-size" class="size-radio-btn check">s</label>
+                                    <input type="radio" name="size" id="m-size" value="m" hidden>
+                                    <label for="m-size" class="size-radio-btn">m</label>
+                                    <input type="radio" name="size" id="l-size" value="l" hidden>
+                                    <label for="l-size" class="size-radio-btn">l</label>
+                                    <input type="radio" name="size" id="xl-size" value="xl" hidden>
+                                    <label for="xl-size" class="size-radio-btn">xl</label>
+                                    <input type="radio" name="size" id="xxl-size" value="xxl" hidden>
+                                    <label for="xxl-size" class="size-radio-btn">xxl</label>
+                                </div>
+                            </div>
+                            <div class="disc">
+                                <h2 class="heading">description</h2>
+                                <p class="des">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis eum, 
+                                    itaque ut voluptates ea repudiandae commodi, aperiam, 
+                                    a enim rem quisquam doloribus architecto perspiciatis veniam sint dignissimos modi dolore totam.
+                                </p>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CASH</button>
+                    </div>
+                </div>
+
+                <div class="shop-item"> 
+                    <img class="shop-item-image" src="img/card10.png">
+                    <div class="all_des">
+                        <div class="shop-item-details">
+                            <div class="all_head">
+                                <h1 class="shop-item-title">Shoes</h1>
+                                <p class="shop-item-price">$6.99</p>
+                                <p class="product-sub-heading">select size</p>
+                                <div class="sizeig_box">
+                                    <input type="radio" name="size1" id="s-size1" value="s" hidden checked>
+                                    <label for="s-size1" class="size-radio-btn check">s</label>
+                                    <input type="radio" name="size1" id="m-size1" value="m" hidden>
+                                    <label for="m-size1" class="size-radio-btn">m</label>
+                                    <input type="radio" name="size1" id="l-size1" value="l" hidden>
+                                    <label for="l-size1" class="size-radio-btn">l</label>
+                                    <input type="radio" name="size1" id="xl-size1" value="xl" hidden>
+                                    <label for="xl-size1" class="size-radio-btn">xl</label>
+                                    <input type="radio" name="size1" id="xxl-size1" value="xxl" hidden>
+                                    <label for="xxl-size1" class="size-radio-btn">xxl</label>
+                                </div>
+                            </div>
+                            <div class="disc">
+                                <h2 class="heading">description</h2>
+                                <p class="des">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis eum, 
+                                    itaque ut voluptates ea repudiandae commodi, aperiam, 
+                                    a enim rem quisquam doloribus architecto perspiciatis veniam sint dignissimos modi dolore totam.
+                                </p>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CASH</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container content-section">
+            <h2 class="section-header">CASH </h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-purchase" id="purchase" type="button">PURCHASE</button>
+        </section>
+        
+        <footer></footer>
+        <script src="JS/nav.js"></script>
+        <script src="JS/footer.js"></script>
+        <script src="JS/cart.js"></script>
+        <script src="JS/product.js"></script>
+    </body>
+</html>

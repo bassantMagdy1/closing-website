@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kalam:wght@300;700&family=Prompt&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/signUp.css">
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/nav.css">
+</head>
+<body id="body">
+  <nav class="navbar" id="nav"></nav> 
+    
+    <form method="post" action="Home.html" onsubmit="return validateForm()">
+        <div id="login-box">
+            <div class="left">
+              <h1>Sign up</h1>
+              
+              <input type="text" name="username" placeholder="User Name" id="username" />
+              <input type="email" name="email" placeholder="E-mail" id="email" required pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?" />
+              <input type="password" name="password" placeholder="Password" id="password1" />
+              <input type="password" name="password2" placeholder="Retype password" id="password2"  />
+              <div class="accept">
+                <input type="checkbox" id="accept" name="accept">
+                <label for="accept" id="acceptt">I accept</label>
+                
+            </div>
+              
+              <button type="submit" name="signup_submit" value="Sign me up">Sign Up</button>
+            </div>
+            
+            <div class="right">
+              <span class="loginwith">Sign Up with<br />social network</span>
+              
+              <button class="social-signin facebook"><a href="https://www.facebook.com/">Sign Up with Facebook</a></button>
+              <button class="social-signin twitter"><a href="https://twitter.com/">Sign Up with Twitter</a></button>
+              <button class="social-signin google"><a href="https://www.google.com/">Sign Up with Google+</a></button>
+            </div>
+            <div class="or">OR</div>
+          </div>
+    </form>
+    <script src="JS/nav.js"></script>
+    <script src="JS/signUp.js"></script>
+</body>

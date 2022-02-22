@@ -1,0 +1,259 @@
+
+.product-container
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: auto;
+    grid-row-gap: 40px;
+}
+
+.section-header {
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    color: #333;
+    font-size: 2.8em;
+    margin: 80px auto 100px;
+    padding: 17px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    width: fit-content;
+    border-radius: 11px;
+}
+
+.content-section {
+    margin: 1em;
+
+}
+
+.container {
+    margin: 50px ;
+    padding: 0 1.5em;
+}
+
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: #000;
+    background-color: #ddd;
+    border: 1px solid #777;
+    border-radius: 0.3em;
+    font-weight: bold;
+    width: 300px;
+    margin: 10px auto;
+    padding: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #777;
+    color: #fff;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+    
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+    gap: 50px;
+
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    margin-left: 210px;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+.shop-items {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: space-between;
+    gap: 40px;
+}
+.shop-item {
+    display: flex;
+    gap: 30px;
+}
+.shop-item img {
+    border-radius: 5px  ;
+    box-shadow: -6px 4px 16px -12px #000;
+
+}
+
+.sizeig_box{
+    text-align: center;
+}
+.size-radio-btn.check
+{
+    background: #383838;
+    color: #fff;
+}
+.size-radio-btn:hover {
+    border: 1px solid #383838;
+    background-color: #3838383f;
+}
+.size-radio-btn
+{
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    border: 1px solid #383838;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 0;
+    line-height: 65px;
+    text-transform: uppercase;
+    color: #383838;
+    cursor: pointer;
+}
+
+/* .shop-item-title {
+    background-color: wheat;
+    margin: auto;
+    width: fit-content;
+    padding: 5px 40px;
+    border-radius: 5px;
+} */
+.shop-item-details{
+    display: flex;
+    padding: 30px 20px;
+    columns: 2;
+    background-color: #eee;
+    border-radius: 5px;
+
+}
+
+.shop-item-price { 
+   font-size: 33px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+.product-sub-heading {
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 12px;
+    text-transform: capitalize;
+
+}
+.disc {
+    width: 450px;
+    margin-left: 17px;
+    border-left: 1px solid;
+    padding-left: 25px;
+    line-height: 1.8;
+}
+
+.all_des{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: -6px 4px 16px -12px #000;
+
+}
+
+.all_head {
+    display: flex;
+    flex-direction: column;
+    gap: 11px; 
+}
